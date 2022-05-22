@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ConstantRotationController : MonoBehaviour
 {
-    [SerializeField] private Vector3 speed = new Vector3();
-    [SerializeField] private bool HasRandomizedSpeed = false;
+    private Vector3 speed = new Vector3();
+    private bool HasRandomizedSpeed = false;
 
     private Vector3 instanceSpeed;
 

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    [SerializeField] private GameObject[] gameObjects = new GameObject[0];
-    [SerializeField] private Vector3 spawnLocation = new Vector3();
-    [SerializeField] private Vector3 spawnRange = new Vector3();
+    private GameObject[] gameObjects = new GameObject[0];
+    private Vector3 spawnLocation = new Vector3();
+    private Vector3 spawnRange = new Vector3();
 
     [SerializeField] private float spawnInterval = 1.5f;
     // Start is called before the first frame update

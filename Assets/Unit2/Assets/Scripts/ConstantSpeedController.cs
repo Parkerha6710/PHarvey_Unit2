@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ConstantSpeedController : MonoBehaviour
 {
-    [SerializeField] private Vector3 speed = new Vector3();
+    private Vector3 speed = new Vector3();
 
     // Update is called once per frame
     void Update()
